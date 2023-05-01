@@ -1,0 +1,38 @@
+.Button{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 16px 24px;
+    font-size: 1.7em;
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: .3s;
+    cursor: pointer;
+    width: 15rem;
+
+
+}
+
+.Button:hover{
+   background-color: white;
+    color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+
+.Button-disable{
+    background-color: rgba(41, 72, 113,.5);
+    width: 15rem;
+    color: white;
+    padding: 16px 24px;
+    font-size: 1.7em;
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor:not-allowed;
+
+}

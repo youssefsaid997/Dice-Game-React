@@ -1,0 +1,7 @@
+.Dice-box{
+    display: flex;
+    margin: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
